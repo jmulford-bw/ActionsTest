@@ -3,3 +3,5 @@ description: 'Sample of using docker in github actions'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  env:
+    output: "ayy lmao"
