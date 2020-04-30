@@ -4,4 +4,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   env:
-    output: "ayy lmao"
+    output: ${{ secrets.OUTPUT }}
